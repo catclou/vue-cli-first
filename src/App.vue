@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <TitleComp></TitleComp>
+    <HeroJumbotron></HeroJumbotron>
   </div>
 </template>
 
 <script>
 import TitleComp from './components/TitleComp.vue'
+import HeroJumbotron from './components/HeroJumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleComp
+    TitleComp,
+    HeroJumbotron
   }
 }
 </script>
